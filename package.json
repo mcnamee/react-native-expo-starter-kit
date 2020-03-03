@@ -47,5 +47,11 @@
     "jest-expo": "^36.0.1",
     "react-test-renderer": "^16.13.0"
   },
-  "private": true,  "jest": { "preset": "@testing-library/react-native", "transformIgnorePatterns": [ "node_modules/(?!(jest-)?react-native|@expo/vector-icons|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base)" ] }
+  "private": true,
+  "jest": {
+    "preset": "@testing-library/react-native",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|@expo/vector-icons|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base)"
+    ]
+  }
 }
