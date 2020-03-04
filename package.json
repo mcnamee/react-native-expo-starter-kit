@@ -1,6 +1,7 @@
 {
   "main": "node_modules/expo/AppEntry.js",
-  "scripts": {  "test": "jest",
+  "scripts": {
+    "test": "jest --watchAll --silent",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -45,11 +46,15 @@
     "eslint-plugin-react": "^7.18.3",
     "jest": "^25.1.0",
     "jest-expo": "^36.0.1",
+    "jest-transform-stub": "^2.0.0",
     "react-test-renderer": "^16.13.0"
   },
   "private": true,
   "jest": {
     "preset": "@testing-library/react-native",
+    "setupFiles": ["jest-expo/jest-preset.js"],
+    "setupFilesAfterEnv": ["@testing-library/react-native/jest-preset.js"],
+    "transform": { ".+\\.(png|jpg|ttf|woff|woff2)$": "jest-transform-stub" },
     "transformIgnorePatterns": [
       "node_modules/(?!(jest-)?react-native|@expo/vector-icons|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base)"
     ]
