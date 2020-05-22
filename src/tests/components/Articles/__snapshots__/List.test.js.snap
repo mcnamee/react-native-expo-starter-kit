@@ -271,7 +271,7 @@ exports[`<ArticlesList /> shows a nice error message 1`] = `
           Object {
             "color": "#000",
             "fontSize": 21,
-            "lineHeight": 22,
+            "lineHeight": 25,
           },
           Object {
             "textAlign": "center",

@@ -42,7 +42,7 @@ exports[`<Error /> renders with a button 1`] = `
           Object {
             "color": "#000",
             "fontSize": 21,
-            "lineHeight": 22,
+            "lineHeight": 25,
           },
           Object {
             "textAlign": "center",
@@ -174,7 +174,7 @@ exports[`<Error /> renders with message 1`] = `
           Object {
             "color": "#000",
             "fontSize": 21,
-            "lineHeight": 22,
+            "lineHeight": 25,
           },
           Object {
             "textAlign": "center",
