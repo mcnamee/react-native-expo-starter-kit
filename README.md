@@ -3,6 +3,8 @@
   <p></p>
   <h1>React Native (Expo) App</h1>
   <p></p>
+  <a href="https://expo.io/@mcnamee/react-native-starter-kit"><img src="documentation/expo-demo.jpg" alt="React Native Expo Demo" height="50" /></a>
+  <p></p>
   <sup>
     <a href="https://github.com/mcnamee/react-native-expo-starter-kit/actions">
       <img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fmcnamee%2Freact-native-expo-starter-kit%2Fbadge%3Fref%3Dmaster&style=flat" alt="builds" />
