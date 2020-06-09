@@ -1,12 +1,30 @@
-<img src="documentation/rnsk-logo.jpg" alt="React Native Starter Kit" width="400" />
-
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fmcnamee%2Freact-native-expo-starter-kit%2Fbadge%3Fref%3Dmaster&style=flat)](https://github.com/mcnamee/react-native-expo-starter-kit/actions)  [![CryptoTip](https://img.shields.io/badge/Donate%20with-CryptoTip-blue.svg?style=flat&colorB=007bff)](https://cryptotip.it/p/mcnamee)  [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U7CE3LJYX859E)
+<div align="center">
+  <img src="documentation/rnsk-logo.jpg" alt="React Native Expo Starter Kit" width="400" />
+  <p></p>
+  <h1>React Native (Expo) App</h1>
+  <p></p>
+  <sup>
+    <a href="https://github.com/mcnamee/react-native-expo-starter-kit/actions">
+      <img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fmcnamee%2Freact-native-expo-starter-kit%2Fbadge%3Fref%3Dmaster&style=flat" alt="builds" />
+    </a>
+    <a href="/LICENSE">
+      <img src="https://img.shields.io/github/license/mcnamee/react-native-expo-starter-kit?style=flat-square" alt="license" />
+    </a>
+  </sup>
+  <br />
+  <p align="center">
+    <a href="#-intro"><b>What is this?</b></a>
+    &nbsp;&nbsp;&mdash;&nbsp;&nbsp;
+    <a href="#-getting-started"><b>Usage</b></a>
+    &nbsp;&nbsp;&mdash;&nbsp;&nbsp;
+    <a href="#-docs"><b>Docs</b></a>
+    &nbsp;&nbsp;&mdash;&nbsp;&nbsp;
+    <a href="#-further-help"><b>Need help?</b></a>
+  </p>
+  <br />
+</div>
 
 ---
-
-# React Native (Expo) App
-
-<a href="https://expo.io/@mcnamee/react-native-starter-kit"><img src="documentation/expo-demo.jpg" alt="React Native Expo Demo" height="50" /></a>
 
 ### Looking for something else?
 
