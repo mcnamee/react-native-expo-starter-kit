@@ -9,28 +9,28 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@expo/vector-icons": "^10.2.0",
-    "@react-native-community/async-storage": "^1.11.0",
+    "@expo/vector-icons": "^10.0.0",
+    "@react-native-community/async-storage": "~1.12.0",
     "@rematch/core": "^1.4.0",
     "@rematch/loading": "^1.2.1",
     "@rematch/persist": "^1.1.6",
     "axios": "^0.19.2",
-    "expo": "~38.0.8",
-    "expo-font": "^8.2.1",
-    "expo-status-bar": "^1.0.2",
+    "expo": "^39.0.0",
+    "expo-font": "~8.3.0",
+    "expo-status-bar": "~1.0.2",
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.27.0",
     "native-base": "^2.13.12",
     "prop-types": "^15.7.2",
-    "react": "~16.11.0",
-    "react-dom": "~16.11.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "react-hook-form": "^6.0.8",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
-    "react-native-gesture-handler": "^1.6.1",
-    "react-native-reanimated": "^1.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.0.tar.gz",
+    "react-native-gesture-handler": "~1.7.0",
+    "react-native-reanimated": "~1.13.0",
     "react-native-router-flux": "^4.2.0",
-    "react-native-screens": "^2.9.0",
-    "react-native-web": "~0.11.7",
+    "react-native-screens": "~2.10.1",
+    "react-native-web": "~0.13.7",
     "react-redux": "^7.2.0",
     "redux-persist": "^6.0.0"
   },
@@ -38,7 +38,7 @@
     "@babel/core": "^7.8.6",
     "@testing-library/react-native": "^5.0.3",
     "babel-eslint": "^10.1.0",
-    "babel-preset-expo": "~8.1.0",
+    "babel-preset-expo": "^8.3.0",
     "eslint": "^7.5.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",
@@ -46,16 +46,22 @@
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.20.3",
     "jest": "^26.1.0",
-    "jest-expo": "^38.0.2",
+    "jest-expo": "^39.0.0",
     "jest-transform-stub": "^2.0.0",
     "react-test-renderer": "^16.13.1"
   },
   "private": true,
   "jest": {
     "preset": "@testing-library/react-native",
-    "setupFiles": ["jest-expo/jest-preset.js"],
-    "setupFilesAfterEnv": ["@testing-library/react-native/jest-preset.js"],
-    "transform": { ".+\\.(png|jpg|ttf|woff|woff2)$": "jest-transform-stub" },
+    "setupFiles": [
+      "jest-expo/jest-preset.js"
+    ],
+    "setupFilesAfterEnv": [
+      "@testing-library/react-native/jest-preset.js"
+    ],
+    "transform": {
+      ".+\\.(png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
+    },
     "transformIgnorePatterns": [
       "node_modules/(?!(jest-)?react-native|@expo/vector-icons|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|moment)"
     ]
