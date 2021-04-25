@@ -10,17 +10,18 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^10.2.0",
+    "@expo/webpack-config": "^0.12.68",
     "@react-native-community/async-storage": "^1.11.0",
     "@rematch/core": "^1.4.0",
     "@rematch/loading": "^1.2.1",
     "@rematch/persist": "^1.1.6",
     "axios": "^0.19.2",
-    "expo": "~38.0.8",
+    "expo": "^40.0.1",
     "expo-font": "^8.2.1",
     "expo-status-bar": "^1.0.2",
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.27.0",
-    "native-base": "^2.13.12",
+    "native-base": "^2.15.2",
     "prop-types": "^15.7.2",
     "react": "~16.11.0",
     "react-dom": "~16.11.0",
@@ -53,9 +54,15 @@
   "private": true,
   "jest": {
     "preset": "@testing-library/react-native",
-    "setupFiles": ["jest-expo/jest-preset.js"],
-    "setupFilesAfterEnv": ["@testing-library/react-native/jest-preset.js"],
-    "transform": { ".+\\.(png|jpg|ttf|woff|woff2)$": "jest-transform-stub" },
+    "setupFiles": [
+      "jest-expo/jest-preset.js"
+    ],
+    "setupFilesAfterEnv": [
+      "@testing-library/react-native/jest-preset.js"
+    ],
+    "transform": {
+      ".+\\.(png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
+    },
     "transformIgnorePatterns": [
       "node_modules/(?!(jest-)?react-native|@expo/vector-icons|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|moment)"
     ]
