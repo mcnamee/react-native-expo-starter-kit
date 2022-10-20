@@ -28,7 +28,7 @@
     "react-hook-form": "^6.0.8",
     "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
     "react-native-gesture-handler": "^1.6.1",
-    "react-native-reanimated": "^1.9.0",
+    "react-native-reanimated": "^2.10.0",
     "react-native-router-flux": "^4.2.0",
     "react-native-screens": "^2.9.0",
     "react-native-web": "~0.11.7",
