@@ -19,7 +19,7 @@
     "expo": "^40.0.1",
     "expo-font": "^8.2.1",
     "expo-status-bar": "^1.0.2",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "moment": "^2.27.0",
     "native-base": "^2.15.2",
     "prop-types": "^15.7.2",
